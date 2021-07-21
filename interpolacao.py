@@ -12,10 +12,12 @@ def matriz(x, grau):
     return matriz
 
 
+#Valores de Entrada
 x = [0.1, 0.2, 0.3, 0.4]
 f = [5, 13, -4, -8]
-# Grau = 2
 grau = 3
+
+#Chamando as funções
 A = matriz(x, grau)
 resultado = ep.gaussPivoteamento(A, f)
 print(resultado)
